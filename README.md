@@ -3,3 +3,16 @@
 https://github.com/EthereumCommonwealth/go-callisto/releases/tag/1.0.0
 
 https://github.com/EthereumCommonwealth/go-callisto/releases/download/1.0.0/geth-linux-amd64
+
+lumber 
+number 
+soccer 
+palm 
+fee 
+card 
+immune
+poet 
+six 
+rice 
+idle
+fish
