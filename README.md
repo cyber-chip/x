@@ -1,15 +1,3 @@
-
-# Release 1.0.0 Callisto - Geth 1.8.4 stable
-https://github.com/EthereumCommonwealth/go-callisto/releases/tag/1.0.0
-
-https://github.com/EthereumCommonwealth/go-callisto/releases/download/1.0.0/geth-linux-amd64
-
-UPD для Windows: Для пользователей Windows следующие пункты несколько осложнены. Требуется установить еще и Geth — клиент командной строки. Перед запуском Mist надо будет выполнить в командной строке
-geth --rinkeby
-(вместо флага --rinkeby можно использовать --testnet если нужна сеть Ropsten, либо вообще опустить флаг, если нужна главная сеть). Из пользовательского интерфейса уже не получится изменить сеть или начать майнить. Если вы собираетесь подключаться и пробовать майнить на Ropsten — запустите geth такой командой
-geth --testnet console 2>nul
-В geth-консоли можно будет выполнить
-miner.setEtherbase("<адрес вашего кошелька>")
-после чего запустить
-miner.start(4)
-(4 — количество потоков, можно выставить сколько хотите). Имейте в виду, что лучше дождаться окончания синхронизации перед тем, как начинать майнить
+Установка:
+wget https://git.io/vpn -O openvpn-install.sh
+sudo bash ./openvpn-install.sh
